@@ -9,13 +9,13 @@ h1{
 }
 
 .assign{
-  margin: 50px; 
+  margin: 10px; 
   padding: 10px;
   backgroud-color: grey;
   display: flex;
 
 }
-.assign{
+.assign img{
   width:100px;
   padding:10px; 
 }
