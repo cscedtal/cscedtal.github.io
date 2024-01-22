@@ -1,0 +1,114 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background: antiquewhite;
+}
+/* Structure */
+#topPage {
+    background: lightcyan;
+    padding: 5px;
+    width: 80%;
+    margin: 5px;
+    margin: auto; /* Center horizontally */
+}
+
+#bottomPage{
+    background: lightcoral;
+    padding: 5px;
+    width: 80%;
+    margin: 5px;
+    margin: auto; /* Center horizontally */
+}
+
+/* Typography */
+
+h1 {
+    color: lightcoral;
+}
+h2{
+
+}
+
+#main-header{
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom:10px;
+    text-align: center;
+
+}
+#main-nav{
+text-align: center;
+text-decoration: none;
+background-color: aqua;
+
+
+
+}
+#main-footer{
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom:10px;
+}
+
+#page-content{
+    background:whitesmoke;
+    padding:5px;
+    
+
+}
+.col1,.col2{
+    background:lightblue;
+    padding:5px;
+    border-radius:5px;
+    margin:5px;
+}
+
+.content-section{
+    background:lightblue;
+    padding:5px;
+    border-radius:5px;
+    margin:5px;
+}
+
+
+
+#pic1 {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+#pic2{
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+#pic3{
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+/* Larger resolutions */
+@media (min-width:900px){
+    #main-nav ul,.topPage, .bottompage{
+        background-color: aqua;
+    display:flex;
+    }
+    #main-nav li, .content-section,.col1,.column{
+        flex: 1;
+        
+    }
+    .col2{
+        flex:2;
+
+    }
+
+}
+
+
